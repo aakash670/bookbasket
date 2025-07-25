@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Basket</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .site-name {
+      font-size: 28px;
+      font-weight: bold;
+      color: #4CAF50;
+    }
+
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-image: url('heading.jpg'); 
+      background-size: cover;
+      background-position: center;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 30px 0 10px;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .author-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .author {
+      width: 160px;
+      background-color: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .author img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .author:hover {
+      transform: scale(1.05);
+    }
+
+    .author-name {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="logo.png" alt="Book Basket Logo" class="logo">
+    <div class="site-name">Book Basket</div>
+  </div>
+
+  <div class="banner"></div>
+
+  <div class="section-title">Explore Authors 📚</div>
+  <div class="author-grid">
+
+    <div class="author">
+      <a href="authors/author1.html">
+        <img src="kafka.jpg" alt="Franz Kafka">
+      </a>
+      <div class="author-name">Franz Kafka</div>
+    </div>
+
+    <div class="author">
+      <a href="authors/author2.html">
+        <img src="george.jpg" alt="George Orwell">
+      </a>
+      <div class="author-name">George Orwell</div>
+    </div>
+
+    <div class="author">
+      <a href="authors/author3.html">
+        <img src="dostoyevsky.webp" alt="Fyodor Dostoevsky">
+      </a>
+      <div class="author-name">Fyodor Dostoevsky</div>
+    </div>
+
+    <div class="author">
+      <a href="authors/author4.html">
+        <img src="jane.webp" alt="Jane Austen">
+      </a>
+      <div class="author-name">Jane Austen</div>
+    </div>
+
+    <div class="author">
+      <a href="authors/author5.html">
+        <img src="rowlin.png" alt="J.K. Rowling">
+      </a>
+      <div class="author-name">J.K. Rowling</div>
+    </div>
+
+    <div class="author">
+      <a href="authors/author6.html">
+        <img src="mark.jpg" alt="Mark Twain">
+      </a>
+      <div class="author-name">Mark Twain</div>
+    </div>
+
+    <div class="author">
+      <a href="authors/author7.html">
+        <img src="tolstoy.jpg" alt="Leo Tolstoy">
+      </a>
+      <div class="author-name">Leo Tolstoy</div>
+    </div>
+
+  </div>
+
+</body>
+
+<footer>
+    <div style="text-align: center; padding: 20px; background-color: #f1f1f1; color: #333;">
+        &copy; 2025 Book Basket. All rights reserved.
+        <br>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>&nbsp;|
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>&nbsp;|
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>&nbsp;|
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+</footer>
+</html>

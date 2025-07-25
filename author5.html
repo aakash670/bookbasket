@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>J.K. Rowling - Book List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('../images/black.webp') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .heading {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+     h1 {
+      margin: 0;
+      color: #ffdf6c;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      font-family: 'Georgia', serif;
+      font-size: 2.5em;
+    }
+
+    .book-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .book {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .book img:hover {
+      transform: scale(1.05);
+    }
+
+    .book-title {
+      margin-top: 10px;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+
+    .book a {
+      text-decoration: none;
+      color: #00ffc8;
+    }
+
+    .book a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading"><h1>📚 Books by J.K. Rowling</h1></div>
+
+  <div class="book-grid">
+
+    <div class="book">
+      <a href="https://afgjilibrary.wordpress.com/wp-content/uploads/2020/05/hp5-harry-potter-and-the-order-of-the-phoenix.pdf" target="_blank">
+        <img src="../images/phoenix.jpg" alt="Order of the Phoenix">
+        <div class="book-title">Harry Potter and the Order of the Phoenix</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://www.libris.ro/pdf?_pid=35097083&for=The+Harry+Potter+Wizarding+Almanac+-+J.+K.+Rowling" target="_blank">
+        <img src="../images/wizarding.jpg" alt="Wizarding Almanac">
+        <div class="book-title">The Harry Potter Wizarding Almanac</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://hazidesaratcollege.ac.in/library/uploads/85jkr_harrypotter_1.pdf" target="_blank">
+        <img src="../images/stone.jpg" alt="Sorcerer's Stone">
+        <div class="book-title">Harry Potter and the Sorcerer's Stone</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://assets.scriptslug.com/live/pdf/scripts/fantastic-beasts-and-where-to-find-them-2016.pdf?v=1729114906" target="_blank">
+        <img src="../images/fantastic beast.jpg" alt="Fantastic Beasts">
+        <div class="book-title">Fantastic Beasts and Where to Find Them</div>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>

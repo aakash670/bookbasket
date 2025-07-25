@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fyodor Dostoevsky - Book List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('../images/black.webp') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .heading {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+     h1 {
+      margin: 0;
+      color: #ffdf6c;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      font-family: 'Georgia', serif;
+      font-size: 2.5em;
+    }
+
+    .book-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .book {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .book img:hover {
+      transform: scale(1.05);
+    }
+
+    .book-title {
+      margin-top: 10px;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      color: #ffdf6c;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .book a {
+      text-decoration: none;
+      color: #00ffc8;
+    }
+
+    .book a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">
+    <h1>📚 Books by Fyodor Dostoevsky</h1>
+  </div>
+
+  <div class="book-grid">
+
+    <div class="book">
+      <a href="https://www.planetpublish.com/wp-content/uploads/2011/11/Crime_and_Punishment_T.pdf" target="_blank">
+        <img src="../images/crime.jpg" alt="Crime and Punishment">
+        <div class="book-title">Crime and Punishment</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://dn790004.ca.archive.org/0/items/whitenightsother00dostiala/whitenightsother00dostiala.pdf" target="_blank">
+        <img src="../images/white nights.jpg" alt="White Nights">
+        <div class="book-title">White Nights</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://www.operatoday.com/documents/The_Gambler.pdf" target="_blank">
+        <img src="../images/gambler.jpg" alt="The Gambler">
+        <div class="book-title">The Gambler</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://dostoevsky-world.rhga.ru/upload/iblock/18d/Dostoevsky%20%20%D0%91%D0%B5%D1%81%D1%8B%20%D0%BD%D0%B0%20%D0%B0%D0%BD%D0%B3%D0%BB.pdf" target="_blank">
+        <img src="../images/demon.jpg" alt="Demons">
+        <div class="book-title">Demons</div>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>

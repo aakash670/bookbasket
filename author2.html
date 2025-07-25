@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>George Orwell - Book List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('../images/black.webp') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .heading {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    h1 {
+      margin: 0;
+      color: #ffdf6c;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      font-family: 'Georgia', serif;
+      font-size: 2.5em;
+    }
+
+    .book-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .book {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .book img:hover {
+      transform: scale(1.05);
+    }
+
+    .book-title {
+      margin-top: 10px;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .book a {
+      text-decoration: none;
+      color: #00ffc8;
+    }
+
+    .book a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading">
+    <h1>📚 Books by George Orwell</h1>
+  </div>
+
+  <div class="book-grid">
+
+    <div class="book">
+      <a href="https://www.clarkchargers.org/ourpages/auto/2015/3/10/50720556/1984.pdf" target="_blank">
+        <img src="../images/nineteen.jpg" alt="Nineteen Eighty-Four">
+        <div class="book-title">Nineteen Eighty-Four</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://zelalemkibret.wordpress.com/wp-content/uploads/2012/05/burmese-days.pdf" target="_blank">
+        <img src="../images/burmese days.jpg" alt="Burmese Days">
+        <div class="book-title">Burmese Days</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://warwick.ac.uk/fac/arts/english/currentstudents/postgraduate/masters/modules/humanrights/why_i_write_orwell.pdf" target="_blank">
+        <img src="../images/why i write.jpg" alt="Why I Write">
+        <div class="book-title">Why I Write</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://zelalemkibret.wordpress.com/wp-content/uploads/2012/05/coming-up-for-air.pdf" target="_blank">
+        <img src="../images/coming up air.jpg" alt="Coming Up for Air">
+        <div class="book-title">Coming Up for Air</div>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>

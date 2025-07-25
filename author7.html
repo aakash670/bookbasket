@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leo Tolstoy - Book List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('../images/black.webp') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .heading {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+     h1 {
+      margin: 0;
+      color: #ffdf6c;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      font-family: 'Georgia', serif;
+      font-size: 2.5em;
+    }
+
+    .book-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .book {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .book img:hover {
+      transform: scale(1.05);
+    }
+
+    .book-title {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .book a {
+      text-decoration: none;
+      color: #00ffc8;
+    }
+
+    .book a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heading"><h1>📚 Books by Leo Tolstoy</h1></div>
+
+  <div class="book-grid">
+
+    <div class="book">
+      <a href="https://antilogicalism.com/wp-content/uploads/2017/07/war-and-peace.pdf" target="_blank">
+        <img src="../images/war and peace.jpg" alt="War and Peace">
+        <div class="book-title">War and Peace</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://www.ccel.org/ccel/t/tolstoy/family/cache/family.pdf" target="_blank">
+        <img src="../images/family happiness.jpg" alt="Family Happiness">
+        <div class="book-title">Family Happiness</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://www.libraryofshortstories.com/storiespdf/three-questions.pdf" target="_blank">
+        <img src="../images/three questions.jpg" alt="The Three Questions">
+        <div class="book-title">The Three Questions</div>
+      </a>
+    </div>
+
+    <div class="book">
+      <a href="https://www.arvindguptatoys.com/arvindgupta/tolstoy-lion.pdf" target="_blank">
+        <img src="../images/The Lion and the Dog.jpg" alt="The Lion and the Dog">
+        <div class="book-title">The Lion and the Dog</div>
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
